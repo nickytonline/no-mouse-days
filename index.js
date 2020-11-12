@@ -18,6 +18,6 @@ function addStyle(styles) {
 }
     
 /* Function call */
-window.onload = function() {
-    addStyle(styles)
-}
+window.addEventListener('load', function() {
+    addStyle(styles);
+});
